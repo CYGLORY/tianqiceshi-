@@ -1,4 +1,4 @@
-name: tianqiceshi
+name: tianqiceshi-
 on:
   workflow_dispatch:
   schedule: 
@@ -23,6 +23,6 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip3 install -r requirements.txt
-      - name: tianqiceshi
+      - name: tianqiceshi-
         run: |
           python3 main.py
